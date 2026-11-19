@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Offline Pixel Chess",
+  "version": "1.0.0",
+  "description": "Optionally open Offline Pixel Chess when a website fails because the network is unavailable.",
+  "permissions": [
+    "storage",
+    "webNavigation"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Offline Pixel Chess",
+    "default_popup": "popup.html"
+  }
+}
